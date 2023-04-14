@@ -91,7 +91,7 @@ async function convertToCurrenciesImage(number, base) {
 
       // Info Commands
       
-      const copyright = ["Unity Bots"]
+      const copyright = ["Almasa Services"]
 
       client.on('messageCreate', message => {
         if(message.content.startsWith(prefix + "help")){
@@ -104,7 +104,7 @@ async function convertToCurrenciesImage(number, base) {
             )
             
             let Embed = new MessageEmbed()
-            .setAuthor({ name: `${copyright}`, url: `https://discord.gg/utb`, iconURL: message.author.avatarURL({ dynamic: true, size: 1024, format: 'png' })})
+            .setAuthor({ name: `${copyright}`, url: `https://discord.gg/almasa`, iconURL: message.author.avatarURL({ dynamic: true, size: 1024, format: 'png' })})
             .setTitle('Here is my help command')
             .setDescription(`**PUBLIC: [ 4 ]**\n\`convert\` | \`ping\` | \`uptime\` | \`help\``)
             .setColor('BLURPLE')
@@ -157,7 +157,7 @@ client.on('messageCreate', message => {
 client.on("interactionCreate", (Interaction, message) => {
   if (!Interaction.isButton()) return;
   if (Interaction.customId === 'who') {
-    Interaction.reply({content: `**مرحبا!\n\هذا البوت تمت صناعته من فريق [Unity Bots](https://discord.gg/utb) الذي قامة بصناعة بوتات أخرى!\nانعجبت من قدرات هذا البوت؟ يمكنك شراء نسخة منه بأرخص الاسعار!\n\nSupport:** [discord.gg/utb](https://discord.gg/utb)`, ephemeral: true})
+    Interaction.reply({content: `**مرحبا!\n\هذا البوت تمت صناعته من فريق [${copyright}](https://discord.gg/almasa) الذي قامة بصناعة بوتات أخرى!\nانعجبت من قدرات هذا البوت؟ يمكنك شراء نسخة منه بأرخص الاسعار!\n\nSupport:** [discord.gg/utb](https://discord.gg/utb)`, ephemeral: true})
   }
 })
     
