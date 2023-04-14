@@ -163,4 +163,4 @@ client.on("interactionCreate", (Interaction, message) => {
     
 
     
-client.login("MTA4NTM1NzY4NzQzODU5NDEyOA.GBumoY.LW7iWN1J6atngQSWqHxqwAOyJ87ynQNB-MNo48")
+client.login(process.env.token)
