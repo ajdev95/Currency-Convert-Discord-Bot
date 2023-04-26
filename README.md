@@ -22,14 +22,15 @@
 ```
 
 and done!
+</details>
 
-  
-# Important Changes that you have to change
+
+# Changes that you have to change!
+
 ```js
-13. const prefix = "!" // Default prefix is ! , change it however you like
-```
+13. const prefix = "!" // Default prefix is ! , change it however you like```
+
 ```js
-66. client.login("yourbottoken") // Change this and add your bot token
-```
+66. client.login("yourbottoken") // Change this and add your bot token```
 
 if you don't change these it will not work!
