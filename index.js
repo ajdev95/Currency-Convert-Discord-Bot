@@ -1,4 +1,4 @@
-const { Client, Intents, Collection, MessageEmebd ,MessageButton,MessageActionRow,Message, MessageAttachment, MessageEmbed  } = require('discord.js');
+const { Client, Intents, Collection, MessageEmebd, MessageButton, MessageActionRow, Message, MessageAttachment, MessageEmbed  } = require('discord.js');
 const client = new Client({
     intents: [
         Intents.FLAGS.GUILDS,
@@ -7,8 +7,7 @@ const client = new Client({
         Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
         Intents.FLAGS.GUILD_VOICE_STATES,
         Intents.FLAGS.DIRECT_MESSAGES
-    ],
-    partials: ["CHANNEL", "MESSAGE", "REACTION"]
+    ]
 });
 const prefix = "!"
 const Canvas = require('canvas');
