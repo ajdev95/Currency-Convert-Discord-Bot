@@ -28,8 +28,7 @@ and done!
 
 ```js
 13. const prefix = "!" // Default prefix is ! , change it however you like
-<br>
-< - - - - - - - - - - > 
+- - - - - - - - - -
 66. client.login("yourbottoken") // Change this and add your bot token
 ```
 
