@@ -1,10 +1,10 @@
 # Currency Convert Discord Bot
 
-## 🆘 Help 🆘
+# 🆘 Help 🆘
 
 **Support:** [discord.gg/black-h](https://discord.gg/black-h)
 
-## Installation
+# Installation
 
 <details>
 <summary>Windows Installation</summary>
@@ -25,7 +25,7 @@ and done!
 </details>
 
 
-## Changes that you have to change!
+# Changes that you have to change!
 
 ```js
 13. const prefix = "!" // Default prefix is ! , change it however you like
