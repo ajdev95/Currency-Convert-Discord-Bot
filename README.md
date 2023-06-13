@@ -1,9 +1,5 @@
 # Currency Convert Discord Bot
 
-# 🆘 Help 🆘
-
-**Support:** [discord.gg/black-h](https://discord.gg/black-h)
-
 # Installation
 
 <details>
